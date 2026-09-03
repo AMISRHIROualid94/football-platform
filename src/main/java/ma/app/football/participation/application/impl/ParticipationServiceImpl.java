@@ -5,8 +5,11 @@ import ma.app.football.participation.application.ParticipationService;
 import ma.app.football.participation.domain.port.ParticipationPort;
 import org.springframework.stereotype.Service;
 
+import jakarta.transaction.Transactional;
+
 @Service
 @AllArgsConstructor
+@Transactional
 public class ParticipationServiceImpl implements ParticipationService {
 
     private final ParticipationPort participationPort;

@@ -1,6 +1,7 @@
 E:\other\football-platform\src\main\java\ma\app\football\FootballApplication.java
 E:\other\football-platform\src\main\java\ma\app\football\invitation\application\impl\InvitationServiceImpl.java
 E:\other\football-platform\src\main\java\ma\app\football\invitation\application\InvitationService.java
+E:\other\football-platform\src\main\java\ma\app\football\invitation\domain\enums\InvitationStatus.java
 E:\other\football-platform\src\main\java\ma\app\football\invitation\domain\Invitation.java
 E:\other\football-platform\src\main\java\ma\app\football\invitation\domain\port\InvitationPort.java
 E:\other\football-platform\src\main\java\ma\app\football\invitation\infrastructure\adapter\InvitationAdapter.java
@@ -8,6 +9,7 @@ E:\other\football-platform\src\main\java\ma\app\football\invitation\infrastructu
 E:\other\football-platform\src\main\java\ma\app\football\invitation\presentation\InvitationController.java
 E:\other\football-platform\src\main\java\ma\app\football\match\application\impl\MatchServiceImpl.java
 E:\other\football-platform\src\main\java\ma\app\football\match\application\MatchService.java
+E:\other\football-platform\src\main\java\ma\app\football\match\domain\enums\MatchStatus.java
 E:\other\football-platform\src\main\java\ma\app\football\match\domain\Match.java
 E:\other\football-platform\src\main\java\ma\app\football\match\domain\port\MatchPort.java
 E:\other\football-platform\src\main\java\ma\app\football\match\infrastructure\adapter\MatchAdapter.java
@@ -15,18 +17,12 @@ E:\other\football-platform\src\main\java\ma\app\football\match\infrastructure\Ma
 E:\other\football-platform\src\main\java\ma\app\football\match\presentation\MatchController.java
 E:\other\football-platform\src\main\java\ma\app\football\participation\application\impl\ParticipationServiceImpl.java
 E:\other\football-platform\src\main\java\ma\app\football\participation\application\ParticipationService.java
+E:\other\football-platform\src\main\java\ma\app\football\participation\domain\enums\ParticipationStatus.java
 E:\other\football-platform\src\main\java\ma\app\football\participation\domain\Participation.java
 E:\other\football-platform\src\main\java\ma\app\football\participation\domain\port\ParticipationPort.java
 E:\other\football-platform\src\main\java\ma\app\football\participation\infrastructure\adapter\ParticipationAdapter.java
 E:\other\football-platform\src\main\java\ma\app\football\participation\infrastructure\ParticipationRepository.java
 E:\other\football-platform\src\main\java\ma\app\football\participation\presentation\ParticipationController.java
-E:\other\football-platform\src\main\java\ma\app\football\player\application\impl\PlayerServiceImpl.java
-E:\other\football-platform\src\main\java\ma\app\football\player\application\PlayerService.java
-E:\other\football-platform\src\main\java\ma\app\football\player\domain\Player.java
-E:\other\football-platform\src\main\java\ma\app\football\player\domain\port\PlayerPort.java
-E:\other\football-platform\src\main\java\ma\app\football\player\infrastructure\adapter\PlayerAdapter.java
-E:\other\football-platform\src\main\java\ma\app\football\player\infrastructure\PlayerRepository.java
-E:\other\football-platform\src\main\java\ma\app\football\player\presentation\PlayerController.java
 E:\other\football-platform\src\main\java\ma\app\football\team\application\impl\TeamServiceImpl.java
 E:\other\football-platform\src\main\java\ma\app\football\team\application\TeamService.java
 E:\other\football-platform\src\main\java\ma\app\football\team\domain\port\TeamPort.java

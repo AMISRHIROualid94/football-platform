@@ -5,8 +5,11 @@ import ma.app.football.user.application.UserService;
 import ma.app.football.user.domain.port.UserPort;
 import org.springframework.stereotype.Service;
 
+import jakarta.transaction.Transactional;
+
 @Service
 @AllArgsConstructor
+@Transactional
 public class UserServiceImpl implements UserService {
 
     private final UserPort userPort;

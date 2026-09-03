@@ -1,6 +1,8 @@
 spring:
-    application:
+  application:
         name: football
+  profiles:
+    active: dev
 
 server:
     servlet:
